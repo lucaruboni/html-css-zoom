@@ -10,12 +10,19 @@
 
 #vp_container{
     height: 100vh;
-    background-color: black;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
-#app_main{
+img{
+    max-width: 100%;
+}
 
+
+
+
+#app_main{
+    flex-direction: column;
 }
 
 .link_view_btn{
@@ -37,7 +44,7 @@
     height: 10px;
     width: 10px;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 40px;
     background-color: #5c5c5d;
     line-height: 10px;
 }
@@ -48,6 +55,14 @@ a{
     font-size: 0.2rem;
 }
 
+
+#central_container{
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
 .main_icon{
     text-align: center;
 }
@@ -55,4 +70,21 @@ a{
 .main_icon_right{
     text-align: center;
     rotate: 45deg;
+}
+
+.cam_container{
+    flex-wrap: wrap;
+    color: aliceblue;
+    gap: 0.05rem;
+    justify-content: center;
+    width: calc(100% / 12 * 9);
+    margin: auto;
+}
+
+.cam_and_name{
+    width: 40px;
+}
+
+.p_img{
+    padding-top: 0.05rem;
 }
