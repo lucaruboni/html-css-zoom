@@ -3,3 +3,56 @@
     margin: 0;
     padding: 0;
 }
+
+.flexbox{
+    display: flex;
+}
+
+#vp_container{
+    height: 100vh;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#app_main{
+
+}
+
+.link_view_btn{
+    justify-content: flex-end;
+    flex-basis: 100%;
+}
+
+.btn_style{
+    margin: 1.5vh;
+    height: 10px;
+    width: 40px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #5c5c5d;
+    line-height: 10px;
+}
+.btn_style_right{
+    margin: 1.5vh;
+    height: 10px;
+    width: 10px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #5c5c5d;
+    line-height: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 0.2rem;
+}
+
+.main_icon{
+    text-align: center;
+}
+
+.main_icon_right{
+    text-align: center;
+    rotate: 45deg;
+}
